@@ -1,0 +1,54 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - echo "✅ Using Node.js version:"
+      - node --version
+      - npm --version
+      - echo "✔️ Node.js 20 confirmed"
+
+  pre_build:
+    commands:
+      - echo "=== PRE-BUILD PHASE ==="
+      - echo "Cleaning node_modules and npm cache"
+      - rm -rf node_modules
+      - npm cache clean --force
+
+  build:
+    commands:
+      - echo "=== BUILD PHASE ==="
+      - echo "Installing dependencies with optional native modules"
+      - npm ci --include=optional --no-audit
+      - echo "Installing sharp with correct platform targeting"
+      - npm install --platform=linux --arch=x64 sharp
+      - echo "Listing top-level packages"
+      - npm list --depth=0
+
+  post_build:
+    commands:
+      - echo "=== POST-BUILD PHASE ==="
+      - echo "Cleaning up node_modules to let Elastic Beanstalk install them"
+      - rm -rf node_modules
+      - echo "✅ Build completed successfully"
+
+artifacts:
+  files:
+    - '**/*'
+  exclude-paths:
+    - .git/**/*
+    - tests/**/*
+    - '*.md'
+    - README*
+    - Dockerfile*
+    - docker-compose.yml
+    - '*.ps1'
+    - '*.log'
+    - coverage/**/*
+    - .nyc_output/**/*
+    - .env*
+    - !.env.example
+  name: BuildArtifact
+  base-directory: '.'

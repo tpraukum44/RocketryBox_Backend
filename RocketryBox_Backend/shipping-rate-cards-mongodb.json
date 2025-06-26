@@ -1,0 +1,697 @@
+[
+  {
+    "_id": "bluedart",
+    "partnerId": "bluedart",
+    "partnerName": "BlueDart",
+    "type": "courier",
+    "status": "active",
+    "serviceTypes": {
+      "air": {
+        "name": "BlueDart Air",
+        "type": "express",
+        "estimatedDays": "1-2",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 37,
+              "additional": 36,
+              "rto": 37
+            },
+            "withinState": {
+              "base": 45,
+              "additional": 43,
+              "rto": 45
+            },
+            "metroToMetro": {
+              "base": 48,
+              "additional": 47,
+              "rto": 48
+            },
+            "restOfIndia": {
+              "base": 49,
+              "additional": 48,
+              "rto": 49
+            },
+            "northEastJK": {
+              "base": 64,
+              "additional": 62,
+              "rto": 64
+            }
+          }
+        }
+      }
+    },
+    "codCharges": {
+      "fixed": 35,
+      "percentage": 1.50
+    },
+    "rateCardVersion": "2.1",
+    "lastUpdated": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "dtdc",
+    "partnerId": "dtdc",
+    "partnerName": "DTDC",
+    "type": "courier",
+    "status": "active",
+    "serviceTypes": {
+      "lite": {
+        "name": "DTDC LITE",
+        "type": "standard",
+        "estimatedDays": "4-7",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 35,
+              "additional": 30,
+              "rto": 35
+            },
+            "withinState": {
+              "base": 40,
+              "additional": 35,
+              "rto": 40
+            },
+            "metroToMetro": {
+              "base": 45,
+              "additional": 40,
+              "rto": 45
+            },
+            "restOfIndia": {
+              "base": 50,
+              "additional": 45,
+              "rto": 50
+            },
+            "northEastJK": {
+              "base": 65,
+              "additional": 60,
+              "rto": 65
+            }
+          },
+          "1.0": {
+            "withinCity": {
+              "base": 55,
+              "additional": 20,
+              "rto": 55
+            },
+            "withinState": {
+              "base": 65,
+              "additional": 25,
+              "rto": 65
+            },
+            "metroToMetro": {
+              "base": 75,
+              "additional": 30,
+              "rto": 75
+            },
+            "restOfIndia": {
+              "base": 85,
+              "additional": 35,
+              "rto": 85
+            },
+            "northEastJK": {
+              "base": 105,
+              "additional": 45,
+              "rto": 105
+            }
+          }
+        }
+      },
+      "premium": {
+        "name": "DTDC Premium",
+        "type": "express",
+        "estimatedDays": "2-4",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 50,
+              "additional": 45,
+              "rto": 50
+            },
+            "withinState": {
+              "base": 55,
+              "additional": 50,
+              "rto": 55
+            },
+            "metroToMetro": {
+              "base": 60,
+              "additional": 55,
+              "rto": 60
+            },
+            "restOfIndia": {
+              "base": 70,
+              "additional": 65,
+              "rto": 70
+            },
+            "northEastJK": {
+              "base": 85,
+              "additional": 80,
+              "rto": 85
+            }
+          },
+          "1.0": {
+            "withinCity": {
+              "base": 75,
+              "additional": 30,
+              "rto": 75
+            },
+            "withinState": {
+              "base": 85,
+              "additional": 35,
+              "rto": 85
+            },
+            "metroToMetro": {
+              "base": 95,
+              "additional": 40,
+              "rto": 95
+            },
+            "restOfIndia": {
+              "base": 110,
+              "additional": 50,
+              "rto": 110
+            },
+            "northEastJK": {
+              "base": 130,
+              "additional": 60,
+              "rto": 130
+            }
+          }
+        }
+      }
+    },
+    "codCharges": {
+      "fixed": 30,
+      "percentage": 1.50
+    },
+    "rateCardVersion": "2.1",
+    "lastUpdated": "2024-12-06T00:00:00.000Z"
+  },
+  {
+    "_id": "ecomexpress",
+    "partnerId": "ecomexpress",
+    "partnerName": "EcomExpress",
+    "type": "courier",
+    "status": "active",
+    "serviceTypes": {
+      "surface": {
+        "name": "EcomExpress Surface",
+        "type": "standard",
+        "estimatedDays": "2-4",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 30,
+              "additional": 28,
+              "rto": 30
+            },
+            "withinState": {
+              "base": 36,
+              "additional": 30,
+              "rto": 36
+            },
+            "metroToMetro": {
+              "base": 41,
+              "additional": 34,
+              "rto": 41
+            },
+            "restOfIndia": {
+              "base": 44,
+              "additional": 40,
+              "rto": 44
+            },
+            "northEastJK": {
+              "base": 51,
+              "additional": 45,
+              "rto": 51
+            }
+          }
+        }
+      }
+    },
+    "codCharges": {
+      "fixed": 30,
+      "percentage": 1.50
+    },
+    "rateCardVersion": "2.1",
+    "lastUpdated": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "xpressbees",
+    "partnerId": "xpressbees",
+    "partnerName": "XpressBees",
+    "type": "courier",
+    "status": "active",
+    "serviceTypes": {
+      "air": {
+        "name": "XpressBees Air",
+        "type": "express",
+        "estimatedDays": "1-2",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 27,
+              "additional": 16,
+              "rto": 25
+            },
+            "withinState": {
+              "base": 27,
+              "additional": 16,
+              "rto": 25
+            },
+            "metroToMetro": {
+              "base": 37,
+              "additional": 34,
+              "rto": 37
+            },
+            "restOfIndia": {
+              "base": 51,
+              "additional": 40,
+              "rto": 43
+            },
+            "northEastJK": {
+              "base": 55,
+              "additional": 47,
+              "rto": 47
+            }
+          }
+        }
+      },
+      "surface": {
+        "name": "XpressBees Surface",
+        "type": "standard",
+        "estimatedDays": "2-4",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 27,
+              "additional": 16,
+              "rto": 25
+            },
+            "withinState": {
+              "base": 27,
+              "additional": 16,
+              "rto": 25
+            },
+            "metroToMetro": {
+              "base": 34,
+              "additional": 32,
+              "rto": 32
+            },
+            "restOfIndia": {
+              "base": 40,
+              "additional": 35,
+              "rto": 38
+            },
+            "northEastJK": {
+              "base": 47,
+              "additional": 27,
+              "rto": 43
+            }
+          },
+          "1.0": {
+            "withinCity": {
+              "base": 40,
+              "additional": 30,
+              "rto": 36
+            },
+            "withinState": {
+              "base": 40,
+              "additional": 30,
+              "rto": 36
+            },
+            "metroToMetro": {
+              "base": 50,
+              "additional": 32,
+              "rto": 44
+            },
+            "restOfIndia": {
+              "base": 58,
+              "additional": 35,
+              "rto": 51
+            },
+            "northEastJK": {
+              "base": 69,
+              "additional": 38,
+              "rto": 60
+            }
+          },
+          "2.0": {
+            "withinCity": {
+              "base": 64,
+              "additional": 20,
+              "rto": 55
+            },
+            "withinState": {
+              "base": 64,
+              "additional": 20,
+              "rto": 55
+            },
+            "metroToMetro": {
+              "base": 69,
+              "additional": 21,
+              "rto": 62
+            },
+            "restOfIndia": {
+              "base": 76,
+              "additional": 25,
+              "rto": 68
+            },
+            "northEastJK": {
+              "base": 89,
+              "additional": 30,
+              "rto": 81
+            }
+          },
+          "5.0": {
+            "withinCity": {
+              "base": 98,
+              "additional": 18,
+              "rto": 88
+            },
+            "withinState": {
+              "base": 98,
+              "additional": 18,
+              "rto": 88
+            },
+            "metroToMetro": {
+              "base": 110,
+              "additional": 20,
+              "rto": 98
+            },
+            "restOfIndia": {
+              "base": 123,
+              "additional": 20,
+              "rto": 108
+            },
+            "northEastJK": {
+              "base": 149,
+              "additional": 25,
+              "rto": 132
+            }
+          },
+          "10.0": {
+            "withinCity": {
+              "base": 149,
+              "additional": 16,
+              "rto": 132
+            },
+            "withinState": {
+              "base": 149,
+              "additional": 16,
+              "rto": 132
+            },
+            "metroToMetro": {
+              "base": 161,
+              "additional": 17,
+              "rto": 144
+            },
+            "restOfIndia": {
+              "base": 174,
+              "additional": 18,
+              "rto": 153
+            },
+            "northEastJK": {
+              "base": 238,
+              "additional": 22,
+              "rto": 216
+            }
+          }
+        }
+      }
+    },
+    "codCharges": {
+      "fixed": 27,
+      "percentage": 1.18
+    },
+    "rateCardVersion": "2.1",
+    "lastUpdated": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "ekart",
+    "partnerId": "ekart",
+    "partnerName": "eKart",
+    "type": "courier",
+    "status": "active",
+    "serviceTypes": {
+      "air": {
+        "name": "eKart Air",
+        "type": "express",
+        "estimatedDays": "1-2",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 31,
+              "additional": 29,
+              "rto": 31
+            },
+            "withinState": {
+              "base": 33,
+              "additional": 31,
+              "rto": 33
+            },
+            "metroToMetro": {
+              "base": 38,
+              "additional": 36,
+              "rto": 38
+            },
+            "restOfIndia": {
+              "base": 40,
+              "additional": 38,
+              "rto": 40
+            },
+            "northEastJK": {
+              "base": 45,
+              "additional": 43,
+              "rto": 45
+            }
+          }
+        }
+      },
+      "express": {
+        "name": "eKart Express",
+        "type": "express",
+        "estimatedDays": "1-2",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 31,
+              "additional": 29,
+              "rto": 31
+            },
+            "withinState": {
+              "base": 34,
+              "additional": 31,
+              "rto": 34
+            },
+            "metroToMetro": {
+              "base": 38,
+              "additional": 36,
+              "rto": 38
+            },
+            "restOfIndia": {
+              "base": 40,
+              "additional": 38,
+              "rto": 40
+            },
+            "northEastJK": {
+              "base": 46,
+              "additional": 43,
+              "rto": 46
+            }
+          }
+        }
+      },
+      "surface": {
+        "name": "eKart Surface",
+        "type": "standard",
+        "estimatedDays": "2-4",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 32,
+              "additional": 30,
+              "rto": 32
+            },
+            "withinState": {
+              "base": 34,
+              "additional": 32,
+              "rto": 34
+            },
+            "metroToMetro": {
+              "base": 39,
+              "additional": 37,
+              "rto": 39
+            },
+            "restOfIndia": {
+              "base": 41,
+              "additional": 39,
+              "rto": 41
+            },
+            "northEastJK": {
+              "base": 46,
+              "additional": 44,
+              "rto": 46
+            }
+          }
+        }
+      }
+    },
+    "codCharges": {
+      "fixed": 30,
+      "percentage": 1.20
+    },
+    "rateCardVersion": "2.1",
+    "lastUpdated": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "delivery-service",
+    "partnerId": "delivery-service",
+    "partnerName": "Delhivery",
+    "type": "courier",
+    "status": "active",
+    "serviceTypes": {
+      "surface": {
+        "name": "Delhivery Surface",
+        "type": "standard",
+        "estimatedDays": "2-4",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 32,
+              "additional": 30,
+              "rto": 32
+            },
+            "withinState": {
+              "base": 34,
+              "additional": 32,
+              "rto": 34
+            },
+            "metroToMetro": {
+              "base": 46,
+              "additional": 43,
+              "rto": 46
+            },
+            "restOfIndia": {
+              "base": 49,
+              "additional": 46,
+              "rto": 49
+            },
+            "northEastJK": {
+              "base": 68,
+              "additional": 64,
+              "rto": 68
+            }
+          },
+          "10.0": {
+            "withinCity": {
+              "base": 189,
+              "additional": 22,
+              "rto": 189
+            },
+            "withinState": {
+              "base": 235,
+              "additional": 26,
+              "rto": 235
+            },
+            "metroToMetro": {
+              "base": 271,
+              "additional": 29,
+              "rto": 271
+            },
+            "restOfIndia": {
+              "base": 313,
+              "additional": 33,
+              "rto": 313
+            },
+            "northEastJK": {
+              "base": 367,
+              "additional": 40,
+              "rto": 367
+            }
+          }
+        }
+      }
+    },
+    "codCharges": {
+      "fixed": 35,
+      "percentage": 1.75
+    },
+    "rateCardVersion": "2.1",
+    "lastUpdated": "2024-06-01T00:00:00.000Z"
+  },
+  {
+    "_id": "bluedart-plus",
+    "partnerId": "bluedart-plus",
+    "partnerName": "BlueDart+",
+    "type": "courier",
+    "status": "active",
+    "serviceTypes": {
+      "express": {
+        "name": "BlueDart+ Express",
+        "type": "express",
+        "estimatedDays": "1-2",
+        "weightSlabs": {
+          "0.5": {
+            "withinCity": {
+              "base": 30,
+              "additional": 30,
+              "rto": 30
+            },
+            "withinState": {
+              "base": 32,
+              "additional": 32,
+              "rto": 32
+            },
+            "metroToMetro": {
+              "base": 34,
+              "additional": 34,
+              "rto": 34
+            },
+            "restOfIndia": {
+              "base": 35,
+              "additional": 35,
+              "rto": 35
+            },
+            "northEastJK": {
+              "base": 45,
+              "additional": 45,
+              "rto": 45
+            }
+          },
+          "1.0": {
+            "withinCity": {
+              "base": 59,
+              "additional": 59,
+              "rto": 59
+            },
+            "withinState": {
+              "base": 63,
+              "additional": 63,
+              "rto": 63
+            },
+            "metroToMetro": {
+              "base": 67,
+              "additional": 67,
+              "rto": 67
+            },
+            "restOfIndia": {
+              "base": 69,
+              "additional": 69,
+              "rto": 69
+            },
+            "northEastJK": {
+              "base": 89,
+              "additional": 89,
+              "rto": 89
+            }
+          }
+        }
+      }
+    },
+    "codCharges": {
+      "fixed": 35,
+      "percentage": 1.50
+    },
+    "rateCardVersion": "2.1",
+    "lastUpdated": "2024-06-01T00:00:00.000Z"
+  }
+]
